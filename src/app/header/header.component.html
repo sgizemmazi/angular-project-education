@@ -1,2 +1,70 @@
+<!--uyarı penceresi-->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>KAMPANYA!</strong> 3 Alana 1 BEDAVA Kampanyamız başlamıştır.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 
-<p>header works!</p>
+
+<div class="background-img">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container my-3">
+                <a href="index.html" target="_blank"><img src="../theme-5/images/logo.svg" class="logo"
+                        style="width: 140px; " alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon border-0"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
+                        
+                        <li class="nav-item">
+                            <a  mat-button class="nav-link  mx-3 fc nav-menu" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a   mat-button class="nav-link mx-3 fc nav-menu" href="product-details.html">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a  mat-button class="nav-link mx-3 fc active dropdown-toggle nav-menu" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fc nav-menu" href="#">Action</a></li>
+                                <li><a class="dropdown-item fc nav-menu" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item fc nav-menu" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a  mat-button class="nav-link mx-3 fc nav-menu" href="#">Buy Now</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-rg-0 fw-bolder" style="display: contents;">
+                            <li class="nav-item d-flex align-items-center">
+                                <button mat-raised-button matBadge="20" [matBadgeHidden]="hidden" (click)="toggleBadgeVisibility()" class="nav-link mx-3" href="#"><img class="nav-menu" src="icon/like.svg" alt="">
+                                  
+                                </button>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a  mat-button class="nav-link mx-3 fc nav-menu" href="#"><img class="me-2" src="icon/bag.svg"
+                                        alt="">Cart</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <button class="btn rounded-0 bg-1 text-light mx-3" mat-flat-button type="submit" style="width: 164px;
+                  height: 52px;">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
