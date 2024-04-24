@@ -1,50 +1,5 @@
 
-.cp{
-    cursor: pointer;
-  }
-  .like-point{
-    background-color:  rgba(250, 16, 3, 1);
-  }
-  .bg-1 {
-    background-color: rgba(9, 64, 142, 1) !important;
-  }
-  
-  .bg-2 {
-    background-color: rgba(9, 64, 142, 0.4) !important;
-  }
-  
-  .bg-4 {
-    background-color: rgba(9, 64, 142, 0.1) !important;
-  }
-  
-  .bg-3 {
-    background-color: rgba(195, 150, 78, 1) !important;
-  }
-  
-  .fc-1 {
-    color: rgba(195, 150, 78, 1);
-  }
-  
-  .fc {
-    color: rgba(9, 64, 142, 1) !important;
-  }
-  
-  .mt-6 {
-    margin-top: 200px;
-  }
-  
-  .fs-6 {
-    font-size: 20px !important;
-  }
-  
-  .fs-7 {
-    font-size: 16px !important;
-  }
-  
-  .bg-t {
-    background: transparent !important;
-  }
-  
+
   .nav-menu {
     opacity: 25%;
   }

@@ -1,0 +1,73 @@
+
+/* EUCLİD CİRCULAR */
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Regular.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Italic.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Light.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: italic;
+    font-weight: 300;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Light\ Italic.ttff') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Medium.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: italic;
+    font-weight: 500;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Medium\ Italic.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: normal;
+    font-weight: 600;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Bold.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: italic;
+    font-weight: 600;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ Bold\ Italic.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ SemiBold.ttf') format('woff')
+}
+
+@font-face {
+    font-family: euclid circular a;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Euclid Circular A'), url('../font/Euclid\ Circular\ A\ SemiBold\ Italic.ttf') format('woff')
+}
+
