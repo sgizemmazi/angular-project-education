@@ -1058,3 +1058,9 @@
 
 }
 
+.logo-text{
+  color: rgb(33, 33, 33);
+text-decoration: none;
+text-align: center;
+line-height: 27px;
+}

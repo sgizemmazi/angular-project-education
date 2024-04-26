@@ -17,6 +17,9 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+    console.log("burası bir ngOnInit örneği denemesidir.")
+    
   }
 
 }
