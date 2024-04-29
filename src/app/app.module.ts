@@ -9,6 +9,7 @@ import { MatButton, MatButtonModule } from '@angular/material/button';
 import { HeaderComponent } from './header/header.component';
 import { MatIconModule } from '@angular/material/icon';
 import {MatBadgeModule} from '@angular/material/badge';
+import { MainComponent } from './main/main.component';
 
 
 
@@ -16,7 +17,8 @@ import {MatBadgeModule} from '@angular/material/badge';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
