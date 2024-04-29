@@ -9,7 +9,7 @@ export class MainComponent implements OnInit {
 
   constructor() { }
 
-  itemImageUrl = '../assets/images/card-product-img-3.png';
+  itemImageUrl = '../assets/images/card-product-img-3.png'; //html de oluşturulan src değişkeni ile fotoğrafın yolunu burada verdik
 
   ngOnInit(): void {
   }
