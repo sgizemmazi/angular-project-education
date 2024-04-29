@@ -16,6 +16,8 @@ export class HeaderComponent implements OnInit {
   }
   constructor() { }
 
+  login: string = 'Login'; //html ile tanımladığım değişkeni buraya bağladım arayüzde ne gözükeceğini burada tanımladım.
+
   ngOnInit(): void {
     
     console.log("burası bir ngOnInit örneği denemesidir.")
