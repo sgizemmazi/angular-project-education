@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   login: string = 'Login'; //html ile tanımladığım değişkeni buraya bağladım arayüzde ne gözükeceğini burada tanımladım.
-
+  isUnchanged = true; // html de verilen buttonun özelliğini devredışı bırakmak için kullanılıyor
   ngOnInit(): void {
     
     console.log("burası bir ngOnInit örneği denemesidir.")
