@@ -1,18 +1,5 @@
 <div class="d-flex justify-content-center align-items-center flex-column h-100">
-    <img alt="item" [src]="itemImageUrl1"> 
     <button type="button" class="btn btn-danger mt-4" [attr.aria-label]="imageName">{{imageName}} fotoğrafı hakkında</button>
-</div>
-<div class="d-flex justify-content-center mt-5">
-<div class="border p-3">
-    <table>
-    <tr *ngFor="let user of users">
-      <th>{{ user.name }}</th>
-      <td>{{ user.email }}</td>
-      <td>{{ user.tel }}</td>
-
-    </tr>
-  </table>
-</div>
 </div>
 
 

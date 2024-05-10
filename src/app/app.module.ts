@@ -14,6 +14,8 @@ import { AngularTemplateSyntaxComponent } from './angular-template-syntax/angula
 import { HttpClientModule } from '@angular/common/http';
 import { InputComponent } from './input/input.component';
 import { OutputComponent } from './output/output.component';
+import { BindingsComponent } from './bindings/bindings.component';
+import { TemplateStatementComponent } from './template-statement/template-statement.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { OutputComponent } from './output/output.component';
     MainComponent,
     AngularTemplateSyntaxComponent,
     InputComponent,
-    OutputComponent
+    OutputComponent,
+    BindingsComponent,
+    TemplateStatementComponent
   ],
   imports: [
     BrowserModule,

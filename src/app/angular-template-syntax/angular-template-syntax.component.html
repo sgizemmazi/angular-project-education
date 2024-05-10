@@ -1,4 +1,18 @@
-<div class="d-flex justify-content-center mt-5">
+<div class="d-flex justify-content-center">
     <input #usernameInput type="text" placeholder="Not">
     <button (click)="submitForm(usernameInput.value)">Gönder</button>
+    <p>
+        ** Console **
+    </p>
+</div>
+
+<div class="border p-3 mt-4">
+    <table>
+    <tr *ngFor="let user of users">
+      <th>{{ user.name }}</th>
+      <td>{{ user.email }}</td>
+      <td>{{ user.tel }}</td>
+
+    </tr>
+  </table>
 </div>
