@@ -23,13 +23,13 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
                         
                         <li class="nav-item">
-                            <a  mat-button class="nav-link  mx-3 fc nav-menu" aria-current="page" href="index.html">Home</a>
+                            <a  mat-button class="nav-link active  mx-3 fc nav-menu" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a   mat-button class="nav-link mx-3 fc nav-menu" href="product-details.html">Shop</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a  mat-button class="nav-link mx-3 fc active dropdown-toggle nav-menu" href="#" role="button"
+                            <a  mat-button class="nav-link mx-3 fc dropdown-toggle nav-menu" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Categories
                             </a>
@@ -54,14 +54,15 @@
                                 </button>
                             </li>
                             <li class="nav-item d-flex align-items-center">
-                                <a  mat-button class="nav-link mx-3 fc nav-menu host-title" href="#"><img class="me-2" src="icon/bag.svg"
-                                        alt="">Cart</a>
+                                <a  mat-button class="nav-link mx-3 fc nav-menu host-title bg-black" href="#">Cart</a>
                             </li>
                             <li class="nav-item d-flex align-items-center">
                                 <button class="btn rounded-0 bg-1 text-light mx-3"  [disabled]="isUnchanged" mat-flat-button type="submit" style="width: 164px;
                   height: 52px;">{{login}}</button>
                             </li>
                         </ul>
+                      
+                        
                     </div>
                 </div>
             </div>
