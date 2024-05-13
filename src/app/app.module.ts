@@ -18,6 +18,8 @@ import { BindingsComponent } from './bindings/bindings.component';
 import { TemplateStatementComponent } from './template-statement/template-statement.component';
 import { ClassAndStyleBindingsComponent } from './class-and-style-bindings/class-and-style-bindings.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     BindingsComponent,
     TemplateStatementComponent,
     ClassAndStyleBindingsComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     MatButtonModule,
     MatIconModule,
     MatBadgeModule,
+    FormsModule,
     HttpClientModule // HttpClientModule'ı imports dizisine eklendi
   ],
   providers: [],
