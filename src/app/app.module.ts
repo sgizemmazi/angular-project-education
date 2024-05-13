@@ -22,6 +22,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { FormsModule } from '@angular/forms';
 import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.component';
 import { ReferanceVariablesComponent } from './referance-variables/referance-variables.component';
+import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ReferanceVariablesComponent } from './referance-variables/referance-var
     EventBindingComponent,
     TwoWayBindingComponent,
     DeferrableViewsComponent,
-    ReferanceVariablesComponent
+    ReferanceVariablesComponent,
+    SvgAsTemplatesComponent
   ],
   imports: [
     BrowserModule,

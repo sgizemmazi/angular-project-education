@@ -1,0 +1,9 @@
+<div>
+    <div *ngIf="isVisible">
+        <svg width="100" height="100">
+          <image [attr.href]="'assets/images/angular-logo.svg'" width="100" height="100" />
+        </svg>
+        <h1>ANGULAR</h1>
+      </div>
+    <button (click)="toggleVisibility()">Görseli Göster</button>
+  </div>
