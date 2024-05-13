@@ -21,6 +21,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.component';
+import { ReferanceVariablesComponent } from './referance-variables/referance-variables.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.co
     ClassAndStyleBindingsComponent,
     EventBindingComponent,
     TwoWayBindingComponent,
-    DeferrableViewsComponent
+    DeferrableViewsComponent,
+    ReferanceVariablesComponent
   ],
   imports: [
     BrowserModule,
