@@ -20,6 +20,7 @@ import { ClassAndStyleBindingsComponent } from './class-and-style-bindings/class
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
+import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormsModule } from '@angular/forms';
     TemplateStatementComponent,
     ClassAndStyleBindingsComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    DeferrableViewsComponent
   ],
   imports: [
     BrowserModule,
