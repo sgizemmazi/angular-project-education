@@ -16,6 +16,8 @@ import { InputComponent } from './input/input.component';
 import { OutputComponent } from './output/output.component';
 import { BindingsComponent } from './bindings/bindings.component';
 import { TemplateStatementComponent } from './template-statement/template-statement.component';
+import { ClassAndStyleBindingsComponent } from './class-and-style-bindings/class-and-style-bindings.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TemplateStatementComponent } from './template-statement/template-statem
     InputComponent,
     OutputComponent,
     BindingsComponent,
-    TemplateStatementComponent
+    TemplateStatementComponent,
+    ClassAndStyleBindingsComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
