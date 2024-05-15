@@ -1,0 +1,18 @@
+<ul>
+    <li>
+        <h3 [ngStyle]="{'color': titleColor }">   <!-- Attribute Directives -->
+            Directives (Direktifler);
+        </h3>
+    </li>
+    <li>
+       <p>
+            Sayın {{ username }} <!-- components -->
+        </p>
+       
+    </li>
+    <li>
+        <div *ngIf="isLoggedIn"> <!-- yapısal directives -->
+            Bu bir {{ text }}
+        </div>
+    </li>
+</ul>

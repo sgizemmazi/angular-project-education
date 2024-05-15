@@ -23,6 +23,7 @@ import { FormsModule } from '@angular/forms';
 import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.component';
 import { ReferanceVariablesComponent } from './referance-variables/referance-variables.component';
 import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.component';
+import { AngularDirectiveComponent } from './angular-directive/angular-directive.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.com
     TwoWayBindingComponent,
     DeferrableViewsComponent,
     ReferanceVariablesComponent,
-    SvgAsTemplatesComponent
+    SvgAsTemplatesComponent,
+    AngularDirectiveComponent
   ],
   imports: [
     BrowserModule,
