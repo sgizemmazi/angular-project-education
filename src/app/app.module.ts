@@ -28,6 +28,7 @@ import { AttributeDirectiveComponent } from './components/attribute-directive/at
 import { DependencyInjectionComponentComponent } from './components/dependency-injection-component/dependency-injection-component.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DirectiveCompoApiDirective } from './directives/directive-compo-api.directive';
+import { InjectableServicesComponentComponent } from './injectable-services-component/injectable-services-component.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { DirectiveCompoApiDirective } from './directives/directive-compo-api.dir
     StructuralDirectivesComponent,
     AttributeDirectiveComponent,
     DirectiveCompoApiDirective,
-    DependencyInjectionComponentComponent
+    DependencyInjectionComponentComponent,
+    InjectableServicesComponentComponent
   ],
   imports: [
     BrowserModule,

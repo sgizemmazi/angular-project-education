@@ -1,0 +1,6 @@
+<div>
+    <button (click)="addItem()">Add Item</button>
+    <ul>
+        <li *ngFor="let item of items">{{ item | json }}</li>
+    </ul>
+</div>
