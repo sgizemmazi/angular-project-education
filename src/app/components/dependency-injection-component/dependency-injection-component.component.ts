@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { DependencyInjectionsService } from './dependency-injections.service';
+import { DependencyInjectionsService } from 'src/app/services/dependency-injections.service';
+
 
 @Component({
   selector: 'app-dependency-injection-component',
