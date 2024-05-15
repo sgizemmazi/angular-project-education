@@ -26,7 +26,7 @@ import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.com
 import { AngularDirectiveComponent } from './angular-directive/angular-directive.component';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
 import { AttributeDirectiveComponent } from './attribute-directive/attribute-directive.component';
-import { DirectiveCompoApiDirective } from './directive-compo-api.directive';
+import { DependencyInjectionComponentComponent } from './dependency-injection-component/dependency-injection-component.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,7 @@ import { DirectiveCompoApiDirective } from './directive-compo-api.directive';
     AngularDirectiveComponent,
     StructuralDirectivesComponent,
     AttributeDirectiveComponent,
-    DirectiveCompoApiDirective
+    DependencyInjectionComponentComponent
   ],
   imports: [
     BrowserModule,
