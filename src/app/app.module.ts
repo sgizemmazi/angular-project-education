@@ -25,6 +25,7 @@ import { ReferanceVariablesComponent } from './referance-variables/referance-var
 import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.component';
 import { AngularDirectiveComponent } from './angular-directive/angular-directive.component';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
+import { AttributeDirectiveComponent } from './attribute-directive/attribute-directive.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { StructuralDirectivesComponent } from './structural-directives/structura
     ReferanceVariablesComponent,
     SvgAsTemplatesComponent,
     AngularDirectiveComponent,
-    StructuralDirectivesComponent
+    StructuralDirectivesComponent,
+    AttributeDirectiveComponent
   ],
   imports: [
     BrowserModule,

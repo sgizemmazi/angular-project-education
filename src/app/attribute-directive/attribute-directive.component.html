@@ -1,0 +1,8 @@
+
+<button (click)="changeStyle()">Stil Değiştir</button>
+  <div [ngStyle]="divStyle">Bu bir örnek divdir.</div>
+
+
+  <!-- ngClass  -->
+  <button (click)="toggleClass()">Sınıf Değiştir</button>
+  <div [ngClass]="{ 'red-text': isRed, 'bold-text': isBold }">Bu bir örnek divdir.</div>
