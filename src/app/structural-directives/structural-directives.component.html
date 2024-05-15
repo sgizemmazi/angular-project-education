@@ -1,0 +1,15 @@
+<ul>
+    <li>
+        <div *ngIf="isLoggedIn">
+            Kullanıcı giriş yaptı.
+          </div>
+    </li>
+    <li *ngFor="let item of items">{{ item }}</li>
+    <li>
+        <div [ngSwitch]="color">
+            <p *ngSwitchCase="'red'">Kırmızı</p>
+            <p *ngSwitchCase="'blue'">Mavi</p>
+            <p *ngSwitchDefault>Diğer Renkler</p>
+          </div>
+    </li>
+</ul>

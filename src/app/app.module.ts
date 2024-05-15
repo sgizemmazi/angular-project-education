@@ -24,6 +24,7 @@ import { DeferrableViewsComponent } from './deferrable-views/deferrable-views.co
 import { ReferanceVariablesComponent } from './referance-variables/referance-variables.component';
 import { SvgAsTemplatesComponent } from './svg-as-templates/svg-as-templates.component';
 import { AngularDirectiveComponent } from './angular-directive/angular-directive.component';
+import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { AngularDirectiveComponent } from './angular-directive/angular-directive
     DeferrableViewsComponent,
     ReferanceVariablesComponent,
     SvgAsTemplatesComponent,
-    AngularDirectiveComponent
+    AngularDirectiveComponent,
+    StructuralDirectivesComponent
   ],
   imports: [
     BrowserModule,
