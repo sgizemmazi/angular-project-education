@@ -16,7 +16,7 @@
   height: 31px;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like.svg);
+  background-image: url(/assets/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -24,7 +24,7 @@
 .navbar-like-button:checked {
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like-hover.png);
+  background-image: url(/assets/icon/like-hover.png);
 }
 
 .indicators {
@@ -57,7 +57,7 @@
   height: 22px;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like.svg);
+  background-image: url(/assets/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -65,7 +65,7 @@
 .card-product-like:checked {
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like-hover.png);
+  background-image: url(/assets/icon/like-hover.png);
 }
 
 .card-product-button {
@@ -110,7 +110,7 @@
   height: 22px;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like.svg);
+  background-image: url(/assets/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -119,7 +119,7 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like-hover.png);
+  background-image: url(/assets/icon/like-hover.png);
 }
 
 /* horizontal */
@@ -133,7 +133,7 @@
   border: none;
   margin-right: -40px;
   background-color: transparent;
-  background-image: url(../../assets/icon/like.svg);
+  background-image: url(/assets/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -141,7 +141,7 @@
 .horizontal-like-button:checked {
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like-hover.png);
+  background-image: url(/assets/icon/like-hover.png);
 }
 
 .horizontal-body {
@@ -211,12 +211,12 @@
 }
 
 .img-left-photo-big {
-  background: url(../../assets/images/featured-img-big.png), rgba(9, 64, 142, 0.4);
+  background: url(/assets/images/featured-img-big.png), rgba(9, 64, 142, 0.4);
   height: 480px;
 }
 
 .img-left-photo-small {
-  background: url(../../assets/images/featured-img-small.png), rgba(9, 64, 142, 0.4);
+  background: url(/assets/images/featured-img-small.png), rgba(9, 64, 142, 0.4);
   height: 480px;
 }
 
@@ -299,7 +299,7 @@
 }
 
 .color-choose input[type="radio"]:checked+label span {
-  background-image: url(../../assets/icon/okay.png);
+  background-image: url(/assets/icon/okay.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -356,7 +356,7 @@
   border: none;
   cursor: pointer;
   padding: 10px 30px 10px 20px;
-  background-image: url(../../assets/icon/okay.png);
+  background-image: url(/assets/icon/okay.png);
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -608,7 +608,7 @@
 
 
 .color-choose-category-1 input[type="radio"]:checked+label span {
-  background-image: url(../../assets/icon/okay.png);
+  background-image: url(/assets/icon/okay.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -695,7 +695,7 @@
 
 
 .color-choose-category-2 input[type="radio"]:checked+label span {
-  background-image: url(../../assets/icon/okay.png);
+  background-image: url(/assets/icon/okay.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -947,7 +947,7 @@
   height: 20px;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like.svg);
+  background-image: url(/assets/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -956,7 +956,7 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  background-image: url(../../assets/icon/like-hover.png);
+  background-image: url(/assets/icon/like-hover.png);
 }
 
 @media screen and (max-width: 600px) {

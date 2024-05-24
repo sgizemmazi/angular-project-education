@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InjectableServicesService } from '../directives/injectable-services.service';
+import { InjectableServicesService } from '../../directives/injectable-services.service';
 
 @Component({
   selector: 'app-injectable-services-component',
