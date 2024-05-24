@@ -31,6 +31,7 @@ import { DirectiveCompoApiDirective } from './directives/directive-compo-api.dir
 import { InjectableServicesComponentComponent } from './components/injectable-services-component/injectable-services-component.component';
 import { UserServicesComponentComponent } from './user-services-component/user-services-component.component';
 import { LoggerServiceComponentComponent } from './logger-service-component/logger-service-component.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { LoggerServiceComponentComponent } from './logger-service-component/logg
     DependencyInjectionComponentComponent,
     InjectableServicesComponentComponent,
     UserServicesComponentComponent,
-    LoggerServiceComponentComponent
+    LoggerServiceComponentComponent,
+    UserDetailsComponent
     ],
   imports: [
     BrowserModule,

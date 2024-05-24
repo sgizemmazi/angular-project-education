@@ -7,7 +7,7 @@ export class UserServiceService {
 
   constructor() { }
 
-  getUser() {
+  getUser() {  // Modül içerisindeki providers array'ine eklenen elemanlar (örneğin, servisler ve interceptorler), modülün tüm bileşenlerine, direktiflerine ve pipelarına etki eder.
     return {
       isim: 'Bade Elif',
       yas: 20,
