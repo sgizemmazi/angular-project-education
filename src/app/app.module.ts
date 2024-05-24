@@ -29,6 +29,7 @@ import { DependencyInjectionComponentComponent } from './components/dependency-i
 import { HttpClientModule } from '@angular/common/http';
 import { DirectiveCompoApiDirective } from './directives/directive-compo-api.directive';
 import { InjectableServicesComponentComponent } from './components/injectable-services-component/injectable-services-component.component';
+import { UserServicesComponentComponent } from './user-services-component/user-services-component.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { InjectableServicesComponentComponent } from './components/injectable-se
     AttributeDirectiveComponent,
     DirectiveCompoApiDirective,
     DependencyInjectionComponentComponent,
-    InjectableServicesComponentComponent
+    InjectableServicesComponentComponent,
+    UserServicesComponentComponent
   ],
   imports: [
     BrowserModule,
