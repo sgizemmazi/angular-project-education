@@ -30,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DirectiveCompoApiDirective } from './directives/directive-compo-api.directive';
 import { InjectableServicesComponentComponent } from './components/injectable-services-component/injectable-services-component.component';
 import { UserServicesComponentComponent } from './user-services-component/user-services-component.component';
+import { LoggerServiceComponentComponent } from './logger-service-component/logger-service-component.component';
 
 @NgModule({
   declarations: [
@@ -54,8 +55,9 @@ import { UserServicesComponentComponent } from './user-services-component/user-s
     DirectiveCompoApiDirective,
     DependencyInjectionComponentComponent,
     InjectableServicesComponentComponent,
-    UserServicesComponentComponent
-  ],
+    UserServicesComponentComponent,
+    LoggerServiceComponentComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
