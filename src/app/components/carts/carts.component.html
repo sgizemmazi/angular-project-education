@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-center flex-column align-items-center">
+    <div *ngIf="cartItems.length > 0; else emptyCart" class="card p-4 d-flex justify-content-center">
+        <h2>Sepet</h2>
+        <ul>
+          <li *ngFor="let item of cartItems">
+            {{ item.name }} ({{ item.quantity }})
+            <button (click)="removeItem(item.id)">Ürünü Kaldır</button>
+          </li>
+        </ul>
+        <button (click)="clearCart()">Sepeti Temizle</button>
+    
+      </div>
+      <ng-template #emptyCart>
+        <p>sepete ürün ekleyin lütfen!.</p>
+      </ng-template>
+      
+      <app-any></app-any>
+</div>

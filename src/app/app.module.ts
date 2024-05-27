@@ -32,6 +32,9 @@ import { InjectableServicesComponentComponent } from './components/injectable-se
 import { UserServicesComponentComponent } from './user-services-component/user-services-component.component';
 import { LoggerServiceComponentComponent } from './logger-service-component/logger-service-component.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { AngularSignalComponent } from './components/angular-signal/angular-signal.component';
+import { CartsComponent } from './components/carts/carts.component';
+import { AnyComponent } from './components/any/any.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,10 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     InjectableServicesComponentComponent,
     UserServicesComponentComponent,
     LoggerServiceComponentComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    AngularSignalComponent,
+    CartsComponent,
+    AnyComponent
     ],
   imports: [
     BrowserModule,

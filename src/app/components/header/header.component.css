@@ -737,7 +737,6 @@
   box-sizing: border-box;
   border-radius: 5px;
   pointer-events: none;
-  -webkit-appearance: none;
 }
 
 .price-field input[type=range]::-webkit-slider-thumb {
